@@ -1,0 +1,80 @@
+.template-container.medium .template, .template-container.medium .template-group-object-container, .template-container.medium strong, .template-container.medium table {
+font-size: 1rem!important;
+}
+@media (min-width:720px)
+.template-container .template {
+max-height: 35rem;
+}
+.template-container .template {
+background-color: #fff;
+border-bottom: 1px solid var(--neutral-neutral-3);
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+border-left: 1px solid var(--neutral-neutral-3);
+border-right: 1px solid var(--neutral-neutral-3);
+display: flex;
+justify-content: center;
+max-height: 60vh;
+overflow: hidden auto;
+padding: 1rem 1.5rem;
+scrollbar-color: var(--neutral-neutral-3) #fff;
+text-align: initial;
+width: 100%;
+}
+.template-container .border-radius-template {
+border-radius: 6px;
+}
+.serif {
+font-family: Lora,serif;
+letter-spacing: -.3px;
+}
+.sans-serif.--normal-weight, .serif {
+font-weight: 400;
+}
+.serif {
+font-family: var(--font-serif);
+}
+.new-pricing-page-template {
+display: flex;
+margin: 0 auto;
+min-height: 627px;
+}
+*, :after, :before {
+box-sizing: border-box;
+}
+User Agent Style Sheetaddress, article, aside, div, footer, header, hgroup, main, nav, search, section {
+display: block;
+}
+@media (min-width:328px)
+.template-container .template.draft:before {
+font-size: 4.375rem!important;
+letter-spacing: 1rem;
+}
+.template-container .template.draft:before {
+color: var(--neutral-neutral-4);
+content: "DRAFT";
+display: flex;
+font-family: Inter,sans-serif;
+font-size: 5.688rem!important;
+font-weight: 700;
+height: 0;
+justify-content: center;
+left: 50%;
+letter-spacing: 24.27px!important;
+opacity: .3;
+position: sticky;
+top: 40%;
+width: 0;
+}
+*, :after, :before {
+box-sizing: border-box;
+}
+*, :after, :before {
+box-sizing: border-box;
+}
+.template-container .template::-webkit-scrollbar {
+width: .7rem;
+}
+.template-container .template::-webkit-scrollbar-thumb {
+background: var(--neutral-neutral-3);
+border-radius: 16px;
